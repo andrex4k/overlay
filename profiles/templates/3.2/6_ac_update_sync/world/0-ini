@@ -1,4 +1,4 @@
-# Calculate path=/etc/calculate name=ini.env format=samba cl_update_world==rebuild||cl_update_world==merge||ini(overlay-distros.world)==
+# Calculate path=/etc/calculate name=ini.env format=samba cl_update_world==rebuild||cl_update_world==merge||ini(overlay-andrex4k.world)==
 
-[overlay-distros]
+[overlay-andrex4k]
 world = 243
