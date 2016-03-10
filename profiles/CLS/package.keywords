@@ -1,0 +1,212 @@
+# required by steam-meta (argument)
+=games-util/steam-meta-0-r20131107 ~amd64
+# required by games-util/steam-meta-0-r20131107::steam-overlay
+# required by steam-meta (argument)
+=games-util/steam-games-meta-0-r20141109 ~amd64
+# required by steam-client-meta (argument)
+=games-util/steam-client-meta-0-r20150828 ~amd64
+# required by media-video/handbrake (argument)
+=media-video/handbrake-0.10.2-r1 ~amd64
+# required by winff (argument)
+=media-video/winff-1.5.3 ~amd64
+# required by dev-libs/steam-runtime-openssl (argument)
+=dev-libs/steam-runtime-openssl-1.0.1p ~amd64
+# required by media-fonts/steamfonts (argument)
+=media-fonts/steamfonts-1 ~amd64
+# required by media-libs/steam-runtime-glew (argument)
+=media-libs/steam-runtime-glew-1.6.0-r1 ~amd64
+# required by net-misc/steam-runtime-curl (argument)
+=net-misc/steam-runtime-curl-7.23.1-r1 ~amd64
+# required by games-util/steam-games-meta-0-r20141109::steam-overlay[steamgames_defenders_quest]
+# required by @selected
+# required by @world (argument)
+=dev-util/adobe-air-runtime-2.6-r1 ~amd64
+# required by games-util/steam-games-meta-0-r20141109::steam-overlay[steamgames_unwritten_tales]
+# required by @selected
+# required by @world (argument)
+=media-libs/jpeg-8d-r2 ~amd64
+# required by games-util/steam-games-meta-0-r20141109::steam-overlay[steamruntime,steamgames_shatter,steamgames_trine2]
+# required by @selected
+# required by @world (argument)
+=media-gfx/nvidia-cg-toolkit-3.1.0013-r5 ~amd64
+# required by =media-video/ffmpeg-2.8.5 (argument)
+=media-video/ffmpeg-2.8.5 ~amd64
+# required by app-emulation/vmware-modules-304.2::sabayon
+=app-emulation/vmware-player-7.1.2.2780323-r1 ~amd64
+# required by app-emulation/vmware-player-7.1.2.2780323-r1::gentoo
+# required by app-emulation/vmware-player (argument)
+=app-emulation/vmware-modules-304.2 ~amd64
+# required by app-emulation/vmware-player-7.1.2.2780323-r1::gentoo[vmware-tools]
+# required by app-emulation/vmware-modules-304.2::sabayon
+=app-emulation/vmware-tools-9.9.3.2780323 ~amd64
+# required by app-crypt/cryptopro-uec-3.9.0::vortex
+# required by app-crypt/cryptopro-uec (argument)
+=app-crypt/cprocsp-rdr-uec-3.9.0 ~amd64
+# required by app-crypt/cryptopro-uec-3.9.0::vortex
+# required by app-crypt/cryptopro-uec (argument)
+=app-crypt/lsb-cprocsp-fkc-3.9.0 ~amd64
+# required by app-crypt/cryptopro-uec-3.9.0::vortex[nsplugin]
+# required by app-crypt/cryptopro-uec (argument)
+=www-plugins/cprocsp-npcades-3.9.0-r1 ~amd64
+# required by app-crypt/lsb-cprocsp-ocsp-util-3.9.0::vortex
+# required by app-crypt/lsb-cprocsp-cades-3.9.0::vortex
+# required by www-plugins/cprocsp-npcades-3.9.0-r1::vortex
+# required by app-crypt/cryptopro-uec-3.9.0::vortex[nsplugin]
+# required by app-crypt/cryptopro-uec (argument)
+=app-crypt/lsb-cprocsp-capilite-3.9.0-r1 ~amd64
+# required by app-crypt/lsb-cprocsp-cades-3.9.0::vortex
+# required by www-plugins/cprocsp-npcades-3.9.0-r1::vortex
+# required by app-crypt/cryptopro-uec-3.9.0::vortex[nsplugin]
+# required by app-crypt/cryptopro-uec (argument)
+=app-crypt/lsb-cprocsp-ocsp-util-3.9.0 ~amd64
+# required by app-crypt/cryptopro-uec-3.9.0::vortex
+# required by app-crypt/cryptopro-uec (argument)
+=app-crypt/cprocsp-rdr-pcsc-3.9.0 ~amd64
+# required by app-crypt/cryptopro-uec-3.9.0::vortex
+# required by app-crypt/cryptopro-uec (argument)
+=app-crypt/lsb-cprocsp-base-3.9.0-r1 ~amd64
+# required by app-crypt/cryptopro-uec-3.9.0::vortex
+# required by app-crypt/cryptopro-uec (argument)
+=app-crypt/lsb-cprocsp-kc1-3.9.0-r1 ~amd64
+# required by app-crypt/cryptopro-uec-3.9.0::vortex
+# required by app-crypt/cryptopro-uec (argument)
+=app-crypt/lsb-cprocsp-rdr-3.9.0-r1 ~amd64
+# required by app-crypt/lsb-cprocsp-cades-3.9.0::vortex
+# required by www-plugins/cprocsp-npcades-3.9.0-r1::vortex
+# required by app-crypt/cryptopro-uec-3.9.0::vortex[nsplugin]
+# required by app-crypt/cryptopro-uec (argument)
+=app-crypt/lsb-cprocsp-tsp-util-3.9.0 ~amd64
+# required by www-plugins/cprocsp-npcades-3.9.0-r1::vortex
+# required by app-crypt/cryptopro-uec-3.9.0::vortex[nsplugin]
+# required by app-crypt/cryptopro-uec (argument)
+=app-crypt/lsb-cprocsp-cades-3.9.0 ~amd64
+# required by www-plugins/cprocsp-npcades-3.9.0-r1::vortex
+# required by app-crypt/cryptopro-uec-3.9.0::vortex[nsplugin]
+# required by app-crypt/cryptopro-uec (argument)
+=app-crypt/cprocsp-rdr-gui-gtk-3.9.0 ~amd64
+# required by app-crypt/cryptopro-uec (argument)
+=app-crypt/cryptopro-uec-3.9.0 ~amd64
+# required by telegram (argument)
+=net-im/telegram-0.9.18 ~amd64
+# required by media-sound/teamspeak-client-bin (argument)
+=media-sound/teamspeak-client-bin-3.0.18.2 ~amd64
+# required by media-sound/teamspeak-server-bin (argument)
+=media-sound/teamspeak-server-bin-3.0.11.4 ~amd64
+=games-action/minetest-0.4.13 ~amd64
+# required by dev-lang/php-7.0.2-r2::gentoo
+# required by =php-7.0.2-r2 (argument)
+=app-eselect/eselect-php-0.9.1 ~amd64
+# required by =php-7.0.2-r2 (argument)
+=dev-lang/php-7.0.2-r2 ~amd64
+# required by net-misc/teamviewer (argument)
+=net-misc/teamviewer-11.0.53191-r1 ~amd64
+# required by =media-video/ffmpeg-2.8.6 (argument)
+=media-video/ffmpeg-2.8.6 ~amd64
+# required by abeni (argument)
+=app-portage/abeni-0.0.22 ~amd64
+=dev-lang/php-7.0.4 ~amd64
+#########################################################################
+# $Header: /etc/portage/package.keywords/package.keywords created by Porthole's set_config.py v: 1.1, 2016/02/08 23:03:57, Exp $
+
+=net-wireless/blueman-2.0.3 ~amd64
+# required by net-analyzer/nmapsi (argument)
+=net-analyzer/nmapsi-0.4.1 ~amd64
+# required by @selected
+# required by @world (argument)
+=dev-lang/php-7.0.3 ~amd64
+# required by dev-util/android-sdk-update-manager (argument)
+=dev-util/android-sdk-update-manager-24.4.1 ~amd64
+# required by phpvirtualbox (argument)
+=app-emulation/phpvirtualbox-5.0.3 ~amd64
+# required by x11-terms/finalterm (argument)
+=x11-terms/finalterm-9999 **
+# required by dev-java/apache-sshd-bin-0.11.0::ovirt-overlay
+# required by app-emulation/ovirt-engine-3.4.1::ovirt-overlay[system-jars]
+# required by app-emulation/ovirt-engine (argument)
+=dev-java/apache-mina-bin-2.0.7 ~amd64
+# required by app-emulation/ovirt-engine-3.4.1::ovirt-overlay[system-jars]
+# required by app-emulation/ovirt-engine (argument)
+=dev-java/quartz-bin-2.1.7 ~amd64
+# required by app-emulation/ovirt-engine-3.4.1::ovirt-overlay[system-jars]
+# required by app-emulation/ovirt-engine (argument)
+=dev-java/snmp4j-2.2.5 ~amd64
+# required by app-emulation/ovirt-engine-3.4.1::ovirt-overlay
+# required by app-emulation/ovirt-engine (argument)
+=www-apps/spice-html5-0.1.1 ~amd64
+# required by app-emulation/ovirt-engine-3.4.1::ovirt-overlay[system-jars]
+# required by app-emulation/ovirt-engine (argument)
+=dev-java/spring-ldap-bin-1.3.1 ~amd64
+# required by app-emulation/ovirt-engine-3.4.1::ovirt-overlay
+# required by app-emulation/ovirt-engine (argument)
+=app-emulation/ovirt-jboss-as-bin-7.1.1 ~amd64
+# required by app-emulation/ovirt-engine-3.4.1::ovirt-overlay[system-jars]
+# required by app-emulation/ovirt-engine (argument)
+=dev-java/hibernate-validator-bin-4.3.1 ~amd64
+# required by app-emulation/ovirt-engine-3.4.1::ovirt-overlay[system-jars]
+# required by app-emulation/ovirt-engine (argument)
+=dev-java/openstack-java-sdk-bin-3.0.4 ~amd64
+# required by app-emulation/ovirt-engine (argument)
+=app-emulation/ovirt-engine-3.4.1 ~amd64
+# required by app-emulation/ovirt-engine-3.4.1::ovirt-overlay[system-jars]
+# required by app-emulation/ovirt-engine (argument)
+=dev-java/spring-framework-bin-3.2.2 ~amd64
+# required by app-emulation/ovirt-engine-3.4.1::ovirt-overlay[system-jars]
+# required by app-emulation/ovirt-engine (argument)
+=dev-java/xmlrpc-client-bin-3.1.3 ~amd64
+# required by app-emulation/ovirt-engine-3.4.1::ovirt-overlay
+# required by app-emulation/ovirt-engine (argument)
+=app-emulation/ovirt-host-deploy-1.2.1 ~amd64
+# required by app-emulation/ovirt-engine-3.4.1::ovirt-overlay[system-jars]
+# required by app-emulation/ovirt-engine (argument)
+=dev-java/apache-sshd-bin-0.11.0 ~amd64
+# required by app-emulation/ovirt-engine-3.4.1::ovirt-overlay[system-jars]
+# required by app-emulation/ovirt-engine (argument)
+=app-emulation/otopi-1.2.1 ~amd64
+# required by app-emulation/ovirt-engine-reports (argument)
+=app-emulation/ovirt-engine-reports-3.4.1 ~amd64
+# required by app-emulation/ovirt-engine-reports-3.4.1::ovirt-overlay
+# required by app-emulation/ovirt-engine-reports (argument)
+=www-apps/jasperreports-server-bin-5.5.0 ~amd64
+# required by app-emulation/ovirt-engine-dwh (argument)
+=app-emulation/ovirt-engine-dwh-3.4.1 ~amd64
+# required by pycharm-community (argument)
+=dev-util/pycharm-community-5.0.3 ~amd64
+# required by kde-apps/kdebase-meta-15.08.3-r2::gentoo
+# required by =kde-apps/kdebase-meta-15.08.3-r2 (argument)
+=kde-apps/kdecore-meta-15.08.3-r1 ~amd64
+# required by =kde-apps/kdebase-meta-15.08.3-r2 (argument)
+=kde-apps/kdebase-meta-15.08.3-r2 ~amd64
+# required by g-octave (argument)
+=app-portage/g-octave-0.4.1-r4 ~amd64
+# required by net-analyzer/openvas-8.0.5-r1::gentoo
+# required by net-analyzer/openvas (argument)
+=net-analyzer/openvas-cli-1.4.3 ~amd64
+# required by net-analyzer/openvas (argument)
+=net-analyzer/openvas-8.0.5-r1 ~amd64
+# required by net-analyzer/openvas-8.0.5-r1::gentoo
+# required by net-analyzer/openvas (argument)
+=net-analyzer/openvas-tools-0_pre20512 ~amd64
+# required by net-analyzer/openvas-8.0.5-r1::gentoo
+# required by net-analyzer/openvas (argument)
+=net-analyzer/openvas-manager-6.0.6-r2 ~amd64
+# required by net-analyzer/openvas-8.0.5-r1::gentoo
+# required by net-analyzer/openvas (argument)
+=net-analyzer/openvas-libraries-8.0.5 ~amd64
+# required by net-analyzer/openvas-8.0.5-r1::gentoo
+# required by net-analyzer/openvas (argument)
+=net-analyzer/openvas-scanner-5.0.4-r1 ~amd64
+# required by net-analyzer/greenbone-security-assistant (argument)
+=net-analyzer/greenbone-security-assistant-6.0.9 ~amd64
+# required by sys-kernel/vanilla-sources (argument)
+=sys-kernel/vanilla-sources-4.4.3 ~amd64
+# required by @selected
+# required by @world (argument)
+=dev-lang/php-7.0.4 ~amd64
+# required by =wine-1.9.4 (argument)
+=app-emulation/wine-1.9.4 ~amd64
+# required by games-fps/duke3d (argument)
+=games-fps/duke3d-20040817-r2 **
+# required by =app-antivirus/clamav-0.99 (argument)
+=app-antivirus/clamav-0.99 ~amd64
+# required by =app-antivirus/clamav-unofficial-sigs-4.9.2 (argument)
+=app-antivirus/clamav-unofficial-sigs-4.9.2 ~amd64
