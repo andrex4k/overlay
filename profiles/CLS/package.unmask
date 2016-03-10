@@ -1,0 +1,29 @@
+# required by quake4-bin (argument)
+# /usr/portage/profiles/package.mask:
+# Chris Gianelloni <wolf31o2@gentoo.org> (03 Mar 2008)
+# Masking due to security bug #194607 and security bug #204067
+=games-fps/quake4-bin-1.4.2-r1
+# required by quake4-data (argument)
+# /usr/portage/profiles/package.mask:
+# Chris Gianelloni <wolf31o2@gentoo.org> (03 Mar 2008)
+# Masking due to security bug #194607 and security bug #204067
+=games-fps/quake4-data-1.0.2147.12
+# required by dev-python/bsddb3-6.1.1::gentoo
+# required by @selected
+# required by @world (argument)
+# /var/lib/layman/calculate/profiles/base/package.mask/default:
+# prevent automagic depends
+=sys-libs/db-6.0.35
+
+# required by @preserved-rebuild (argument)
+# /var/lib/layman/calculate/profiles/base/package.mask/default:
+# mask for migration to the new version
+=dev-lang/ruby-2.0.0_p647-r1
+# required by app-emulation/ovirt-engine-3.4.1::ovirt-overlay[system-jars]
+# required by app-emulation/ovirt-engine (argument)
+# /usr/portage/profiles/package.mask:
+# Patrice Clement <monsieurp@gentoo.org> (09 Feb 2016)
+# Old, ancient, deprecated, obsolete.. so many adjectives could describe these
+# ebuilds. Let's just say it's about time to kiss them goodbye.
+# Masked for removal in 30 days. See bug 566232.
+=dev-java/jaxb-2.1.2-r1
