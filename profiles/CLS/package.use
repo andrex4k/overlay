@@ -111,3 +111,14 @@ dev-libs/quazip -qt4 qt5 abi_x86_64
 www-servers/apache -thead
 
 =app-emulation/ovirt-engine-3.4.1 -system-jars
+#duke3d
+games-fps/duke3d demo
+#kernel
+sys-kernel/vanilla-sources symlink
+#phpmyadmin
+dev-db/phpmyadmin  setup
+# required by dev-lang/php-5.6.18::gentoo[apache2]
+# required by virtual/httpd-php-5.6::gentoo
+# required by @selected
+# required by @world (argument)
+#>=www-servers/apache-2.4.18 apache2_modules_unixd
