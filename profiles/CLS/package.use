@@ -2,3 +2,112 @@
 # Removed unnecessary dependence
 # -----------------------------------------
 sys-apps/calculate-utils -client
+# required by dev-libs/nss-3.20.1::gentoo
+# required by www-plugins/adobe-flash-11.2.202.559::gentoo[abi_x86_32,abi_x86_64]
+# required by games-util/steam-client-meta-0-r20150828::steam-overlay[flash]
+# required by games-util/steam-meta-0-r20131107::steam-overlay
+# required by steam-meta (argument)
+>=dev-libs/nspr-4.10.10-r1 abi_x86_32
+# required by games-util/steam-client-meta-0-r20150828::steam-overlay[flash]
+# required by games-util/steam-meta-0-r20131107::steam-overlay
+# required by steam-meta (argument)
+>=www-plugins/adobe-flash-11.2.202.559 abi_x86_32
+# required by www-plugins/adobe-flash-11.2.202.559::gentoo[abi_x86_32]
+# required by games-util/steam-client-meta-0-r20150828::steam-overlay[flash]
+# required by games-util/steam-meta-0-r20131107::steam-overlay
+# required by steam-meta (argument)
+>=dev-libs/nss-3.20.1 abi_x86_32
+# required by dev-lang/lazarus-1.0.12::gentoo
+# required by media-video/winff-1.5.3::sabayon
+# required by winff (argument)
+>=dev-lang/fpc-2.6.4 source
+games-util/steam-launcher steamruntime
+games-util/steam-meta steamruntime
+games-util/steam-games-meta s3tc steamruntime steamgames_bioshock_infinite steamgames_defenders_quest steamgames_dirt_showdown steamgames_dwarfs steamgames_hammerwatch steamgames_ironclad_tactics steamgames_journey_down steamgames_narcissu steamgames_painkiller steamgames_portal steamgames_shatter steamgames_source_engine steamgames_tf2 steamgames_trine2 steamgames_unwritten_tales steamgames_voidexpanse steamgames_witcher2 mono
+games-util/steam-client-meta steamfonts steamruntime
+media-libs/sdl2-mixer mod modplug smpeg -vorbis -midi -timidity -fluidsynth -tremor
+dev-libs/dbus-glib abi_x86_32
+gnome-base/gconf abi_x86_32 python_targets_python2_7
+# required by games-util/steam-games-meta-0-r20141109::steam-overlay[steamgames_ironclad_tactics,steamgames_narcissu]
+# required by @selected
+# required by @world (argument)
+>=media-libs/sdl2-mixer-2.0.0-r1 abi_x86_32
+# required by media-libs/sdl2-mixer-2.0.0-r1::gentoo[tremor,vorbis]
+# required by games-util/steam-games-meta-0-r20141109::steam-overlay[steamgames_ironclad_tactics,steamgames_narcissu]
+# required by @selected
+# required by @world (argument)
+>=media-libs/tremor-0_pre20130223-r1 abi_x86_32
+# required by media-libs/smpeg2-2.0.0-r3::gentoo
+# required by media-libs/sdl2-mixer-2.0.0-r1::gentoo[smpeg,mp3]
+# required by games-util/steam-games-meta-0-r20141109::steam-overlay[steamgames_ironclad_tactics,steamgames_narcissu]
+# required by @selected
+# required by @world (argument)
+>=media-libs/libsdl2-2.0.3-r200 abi_x86_32
+# required by games-util/steam-games-meta-0-r20141109::steam-overlay[s3tc]
+# required by @selected
+# required by @world (argument)
+>=media-libs/libtxc_dxtn-1.0.1-r1 abi_x86_32
+# required by dev-util/adobe-air-runtime-2.6-r1::steam-overlay
+# required by games-util/steam-games-meta-0-r20141109::steam-overlay[steamgames_defenders_quest]
+# required by @selected
+# required by @world (argument)
+>=net-misc/curl-7.45.0 abi_x86_32
+# required by media-libs/sdl2-mixer-2.0.0-r1::gentoo[fluidsynth,midi]
+# required by games-util/steam-games-meta-0-r20141109::steam-overlay[steamgames_ironclad_tactics,steamgames_narcissu]
+# required by @selected
+# required by @world (argument)
+>=media-sound/fluidsynth-1.1.6-r1 abi_x86_32
+# required by media-libs/sdl2-mixer-2.0.0-r1::gentoo[mad,mp3]
+# required by games-util/steam-games-meta-0-r20141109::steam-overlay[steamgames_ironclad_tactics,steamgames_narcissu]
+# required by @selected
+# required by @world (argument)
+>=media-libs/libmad-0.15.1b-r8 abi_x86_32
+# required by media-libs/sdl2-mixer-2.0.0-r1::gentoo[modplug,mod]
+# required by games-util/steam-games-meta-0-r20141109::steam-overlay[steamgames_ironclad_tactics,steamgames_narcissu]
+# required by @selected
+# required by @world (argument)
+>=media-libs/libmodplug-0.8.8.5 abi_x86_32
+# required by media-libs/sdl2-mixer-2.0.0-r1::gentoo[smpeg,mp3]
+# required by games-util/steam-games-meta-0-r20141109::steam-overlay[steamgames_ironclad_tactics,steamgames_narcissu]
+# required by @selected
+# required by @world (argument)
+>=media-libs/smpeg2-2.0.0-r3 abi_x86_32
+# required by games-util/steam-games-meta-0-r20141109::steam-overlay[steamgames_unwritten_tales]
+# required by @selected
+# required by @world (argument)
+>=media-libs/jpeg-8d-r2 abi_x86_32
+# required by games-util/steam-games-meta-0-r20141109::steam-overlay[steamruntime,steamgames_narcissu,steamgames_bioshock_infinite]
+# required by @selected
+# required by @world (argument)
+>=media-libs/sdl2-image-2.0.0-r1 abi_x86_32
+# required by media-libs/sdl2-mixer-2.0.0-r1::gentoo[mikmod,mod]
+# required by games-util/steam-games-meta-0-r20141109::steam-overlay[steamgames_ironclad_tactics,steamgames_narcissu]
+# required by @selected
+# required by @world (argument)
+>=media-libs/libmikmod-3.3.7 abi_x86_32
+net-irc/weechat guile lua perl python ruby tcl alias charset exec fifo logger relay scripts trigger xfer
+net-misc/mediatomb libextractor mysql sqlite taglib thumbnail
+games-fps/quake3 teamarena voice mumble
+dev-lang/php sockets mysql mysqli sqlite
+dev-libs/quazip -qt4 qt5 abi_x86_64
+# required by media-sound/teamspeak-client-bin-3.0.18.2::gentoo
+# required by media-sound/teamspeak-client-bin (argument)
+>=dev-qt/qtgui-5.5.1 accessibility
+# required by app-emulation/phpvirtualbox-5.0.3::gentoo
+# required by phpvirtualbox (argument)
+>=dev-lang/php-7.0.3 soap
+# required by app-emulation/ovirt-engine-3.4.1::ovirt-overlay[system-jars]
+# required by app-emulation/ovirt-engine (argument)
+>=app-emulation/ovirt-host-deploy-1.2.1 java
+# required by app-emulation/ovirt-engine-3.4.1::ovirt-overlay
+# required by app-emulation/ovirt-engine (argument)
+>=www-servers/apache-2.2.31 apache2_modules_proxy_ajp
+# required by app-emulation/ovirt-engine-3.4.1::ovirt-overlay
+# required by app-emulation/ovirt-engine (argument)
+>=sys-libs/cracklib-2.9.1-r1 python
+# required by app-emulation/ovirt-engine-3.4.1::ovirt-overlay[system-jars]
+# required by app-emulation/ovirt-engine (argument)
+>=app-emulation/otopi-1.2.1 java
+www-servers/apache -thead
+
+=app-emulation/ovirt-engine-3.4.1 -system-jars
