@@ -198,7 +198,7 @@
 # required by net-analyzer/greenbone-security-assistant (argument)
 =net-analyzer/greenbone-security-assistant-6.0.9 ~amd64
 # required by sys-kernel/vanilla-sources (argument)
-=sys-kernel/vanilla-sources-4.4.3 ~amd64
+sys-kernel/vanilla-sources ~amd64
 # required by @selected
 # required by @world (argument)
 =dev-lang/php-7.0.4 ~amd64
